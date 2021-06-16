@@ -1,0 +1,33 @@
+h1 {
+  color: #085CAF;
+  border: 2px solid #E62E2E;
+}
+
+p {
+  color: #085CAF;
+  border: 2px solid #E62E2E;
+  font-size: 3rem;
+  margin: 12px;
+  padding: 16px;
+}
+
+a {
+  color: #085CAF;
+}
+
+div p {
+  background-color: #0B9C2F;
+  color: #DDD;
+  border: 3px dotted #DCE925;
+}
+div p span {
+  color: #F51A1A;
+  border: 3px dotted #DCE925;
+}
+
+h2 {
+  color: #0b9c89;
+  border: 2px solid #E62E2E;
+}
+
+/*# sourceMappingURL=styles.css.map */
