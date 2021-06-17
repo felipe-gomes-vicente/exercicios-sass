@@ -31,3 +31,16 @@
 
 @function custom-width($width: 200px, $division: 2)
   @return $width / $division
+
+@function calc-func($a, $b)
+
+  $result: 0
+
+  @if $a > $b
+    $result: #Df1818
+  @else if $a < $b
+    $result: #369
+  @else 
+    $result: #2E5
+  
+  @return $result
