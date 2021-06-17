@@ -1,0 +1,26 @@
+@function text-color($size)
+
+  $color: #000
+
+  @if $size > 10
+    $color: #Df1818
+  @else 
+    $color: #369
+  
+  @return $color
+
+@function custom-border-function($variation: 1)
+
+  $border: none
+
+  @if $variation == 1
+    $border: 2px solid #Df1818
+  @else if $variation == 2
+    $border: 3px solid #2E5
+  @else
+    $border: 4px dotted #E6E92B
+  
+  @return $border
+
+@function custom-width($width: 200px, $division: 2)
+  @return $width / $division

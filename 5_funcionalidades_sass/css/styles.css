@@ -1,0 +1,117 @@
+/*! sass --watch sass/styles.sass:css/styles.css*/
+.btn {
+  background-color: #5747EC;
+  color: #DDD;
+  padding: 12px 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.esp-maior-ainda, .esp-maior, .esp-medio, .esp-menor {
+  font-size: 2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #Df1818;
+  background-color: #E6E92B;
+  padding: 10px;
+  border: 2px solid #Df1818;
+}
+h2:hover {
+  border-color: #493DEC;
+  color: #493DEC;
+}
+
+body {
+  margin: 20px;
+}
+
+.p-esp {
+  color: #Df1818;
+  background-color: #E6E92B;
+  padding: 10px;
+  border: 2px solid #Df1818;
+}
+.p-esp:hover {
+  border-color: #493DEC;
+  color: #493DEC;
+}
+
+h2 {
+  border-color: #2E5;
+  color: #2E5;
+}
+
+.esp-menor {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #Df1818;
+  color: #000;
+  background-color: #DDD;
+}
+
+.esp-medio {
+  padding: 15px;
+  margin: 15px;
+  border: 3px dotted #493DEC;
+  color: #000;
+  background-color: #321;
+}
+
+.esp-maior {
+  padding: 25px;
+  margin: 25px;
+  border: 2px solid #2E5;
+  color: #915;
+  background-color: #369;
+}
+
+.esp-maior-ainda {
+  padding: 50px;
+  margin: 50px;
+  border: 3px double #E6E92B;
+  color: #E6E92B;
+  background-color: #DDD;
+}
+
+.container-menor {
+  width: 600px;
+  border: 2px solid #Df1818;
+}
+
+.container-maior {
+  border: 2px solid #Df1818;
+  width: 36rem;
+  border: 3px solid #2E5;
+}
+
+.fonte-pequena {
+  font-size: 5px;
+  color: #369;
+  border: 4px dotted #E6E92B;
+}
+
+.fonte-grande {
+  font-size: 25px;
+  color: #Df1818;
+  border: 4px dotted #E6E92B;
+}
+
+.teste-1 {
+  width: 100px;
+  background-color: #Df1818;
+}
+
+.teste-2 {
+  width: 500px;
+  background-color: #2E5;
+}
+
+.teste-3 {
+  width: 40px;
+  background-color: #369;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,25 @@
+@mixin special
+  color: #Df1818
+  background-color: #E6E92B
+  padding: 10px
+  border: 2px solid #Df1818
+
+  &:hover
+    border-color: #493DEC
+    color: #493DEC
+
+@mixin green
+  border-color: #2E5
+  color: #2E5
+
+@mixin espacamento($p, $m)
+  padding: $p
+  margin: $m
+
+@mixin custom-border($style, $color, $width: 2px)
+  border: $width $style $color
+
+@mixin colors($font: #000, $background: #DDD)
+  color: $font
+  background-color: $background
+  
