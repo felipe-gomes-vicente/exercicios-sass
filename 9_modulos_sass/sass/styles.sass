@@ -118,3 +118,32 @@ $a: 1, 2, 3, 4, 5
 @debug math.min($a...)
 
 @debug math.floor(math.random() * 10)
+
+@debug meta.global-variable-exists('a')
+@debug meta.global-variable-exists('naoexiste')
+
+@debug meta.inspect($a)
+@debug meta.inspect($pi) 
+
+@mixin test
+  margin: 0
+  padding: 0
+
+@debug meta.mixin-exists('test')
+@debug meta.mixin-exists('test2')
+
+@debug meta.type-of(2)
+@debug meta.type-of(('asd': 1))
+@debug meta.type-of($a)
+@debug meta.type-of('string')
+@debug meta.type-of(#FFF)
+@debug meta.type-of(bold)
+
+$frase: "O rato roeu a roupa do rei de Roma"
+
+@debug string.index($frase, 'rei')
+@debug string.index($frase, 'Brasil')
+
+@debug string.length($frase)
+
+
