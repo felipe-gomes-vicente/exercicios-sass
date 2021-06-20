@@ -296,5 +296,10 @@ ul {
   text-transform: uppercase;
   font-size: 1.2rem;
 }
+.products-grid-card .product-price {
+  color: #D10024;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=app.css.map */
