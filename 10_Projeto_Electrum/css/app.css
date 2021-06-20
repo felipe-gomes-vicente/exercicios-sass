@@ -287,5 +287,10 @@ ul {
 .products-grid-card .category, .products-grid-card .product-name, .products-grid-card .product-price, .products-grid-card .rating-box, .products-grid-card .btn {
   margin-bottom: 1rem;
 }
+.products-grid-card .category {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  color: #B9BABC;
+}
 
 /*# sourceMappingURL=app.css.map */
