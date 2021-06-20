@@ -284,5 +284,8 @@ ul {
 .products-grid-card img {
   width: 100%;
 }
+.products-grid-card .category, .products-grid-card .product-name, .products-grid-card .product-price, .products-grid-card .rating-box, .products-grid-card .btn {
+  margin-bottom: 1rem;
+}
 
 /*# sourceMappingURL=app.css.map */
