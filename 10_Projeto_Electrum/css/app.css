@@ -292,5 +292,9 @@ ul {
   text-transform: uppercase;
   color: #B9BABC;
 }
+.products-grid-card .product-name {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
 
 /*# sourceMappingURL=app.css.map */
